@@ -21,10 +21,10 @@ class LoginActivity : AppCompatActivity() {
         val cancelButton = findViewById<MaterialButton>(R.id.cancel_button)
 
         signInButton.setOnClickListener{
-            if (email.toString().isNullOrEmpty() || password.toString().isNullOrEmpty()){
+            if (email.text.toString().isNullOrEmpty() || password.text.toString().isNullOrEmpty()){
                 Toast.makeText(this, "Email or Password is not provided", Toast.LENGTH_LONG).show()
             }else {
-                if (email.toString() =="raffysul@gmail.com" && password.toString() =="21011"){
+                if (email.text.toString() =="raffysul@gmail.com" && password.text.toString() =="21011"){
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                 } else{
