@@ -17,8 +17,7 @@ class LoginActivity : AppCompatActivity() {
     private fun signIn() {
         val email = findViewById<TextInputEditText>(R.id.email_edit_text)
         val password = findViewById<TextInputEditText>(R.id.password_edit_text)
-        val signInButton = findViewById<MaterialButton>(R.id.next_button)
-        val cancelButton = findViewById<MaterialButton>(R.id.cancel_button)
+        val signInButton = findViewById<MaterialButton>(R.id.signIn_button)
 
         signInButton.setOnClickListener{
             if (email.text.toString().isNullOrEmpty() || password.text.toString().isNullOrEmpty()){

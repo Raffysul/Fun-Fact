@@ -7,4 +7,8 @@
     <string name="next_button">Next</string>
     <string name="cancel_button">Cancel</string>
     <string name="hint_email">Email</string>
+    <string name="signIn_button">SignIn</string>
+    <string name="signIn_butt">SIGN IN</string>
+    <string name="signIn_button_next">SIGN IN</string>
+    <string name="sign_button">SIGN IN</string>
 </resources>
